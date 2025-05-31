@@ -707,11 +707,5 @@ public class IsMaximallyPlanar implements GraphProperty {
         }
         return found ? minHeight : Integer.MAX_VALUE; // Если пара пуста или рёбра не найдены в карте, вернуть MAX_VALUE
     }
-
-    // Старый вспомогательный класс, не используется в основной логике планарности.
-    // private static class EdgePair {
-    //     int u, v;
-    //     EdgePair(int u, int v) { this.u = u; this.v = v; }
-    // }
 }
 
